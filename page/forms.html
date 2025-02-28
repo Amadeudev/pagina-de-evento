@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Inscrição</title>
     <link rel="stylesheet" href="/page/styleForms.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Formulário de Inscrição</title>
 </head>
 <body>
     <header id="cabecalho">
@@ -29,17 +29,42 @@
                 <input type="text" placeholder="Email (Discente)" class="dados">
                 <input type="text" placeholder="Telefone" class="dados">
                 <input type="text" placeholder="Assuntos que você gostaria que fossem abordados:" class="dados">
+                <div class="notaEvento">
+                    <label class="itemCentro">Qual a sua expectativa para o evento?</label><br>
+                        <input type="radio" name="numero" value="1" required>  1
+                        <input type="radio" name="numero" value="2">  2 
+                        <input type="radio" name="numero" value="3">  3
+                        <input type="radio" name="numero" value="4">  4
+                        <input type="radio" name="numero" value="5">  5
+                </div>
 
                 <div id="avisoImportante">
                     <span id="aviso">*Atenção: Todos os dados acima são obrigatórios!</span>
                 </div>
 
-                <div>
+                <div class="botaoPressiona">
                     <a><button class="botaoUm">Cancelar</button></a>
                     <a><button class="botaoDois">Enviar</button></a>
                 </div>
             </div>
         </section>
+
+        <section class="titulosRodape" id="organizacaoDoEvento">
+            <h1>ORGANIZAÇÃO</h1>
+            <div class="grupoComLogos">
+                <a href="https://portalpadrao.ufma.br/site" target="_blank"><img class="organizadoresLogos" src="/assets/logo-ufma.png" alt="Logo da UFMA"></a>
+                <a href="http://www.deinf.ufma.br/" target="_blank"><img class="organizadoresLogos" src="/assets/logo-deinf.png" alt="Logo do Departamento de Informática"></a>
+                <a href="https://petcompufma.org/index.php" target="_blank"><img class="organizadoresLogos" src="/assets/logo-petcomp.png" alt="Logo do PETComp"></a>
+            </div>
+        </section>
     </main>
+
+    <footer id="rodapePagina">
+        <div class="titulosRodape">
+            <h3>CONTATOS</h3>
+        </div>
+        <h6>E-MAIL: petcomputacao.ufma@gmail.com</h6>
+        <a id="logoInsta" href="https://www.instagram.com/petcompufma/" target="_blank"><i class="bi bi-instagram"></i></a>
+    </footer>
 </body>
 </html>

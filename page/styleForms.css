@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     background-color: #040A3E;
-    font-family: "Lato", sans-serif;
+    font-family: "Poppins", sans-serif
 }
 
 #cabecalho{
@@ -58,7 +58,6 @@ body {
 /*INSCRIÇÃO*/
 #conteudo {
     color: black;
-    font-family: "Poppins", sans-serif;
 }
 
 #inscricaoUsuario {
@@ -78,6 +77,12 @@ body {
     width: 540px;
     height: 35rem;
     border-radius: 20px;
+}
+
+.notaEvento{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 #avisoImportante{
@@ -130,6 +135,80 @@ body {
     color:#FF9F76;
 }
 
+/* FOOTER */
+#organizacaoDoEvento{
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.titulosRodape {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.titulosRodape h1 {
+    margin-bottom: 0;
+}
+
+.titulosRodape h1::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #000;
+    margin: 1rem auto 0;
+}
+
+.organizadoresLogos{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.organizadoresLogos:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+
+/*CONTATOS*/
+#rodapePagina{
+    text-align: center;
+    background-color:#040A3E;
+    padding: 0.1rem;
+    color: #fff;
+}
+
+.titulosRodape h3 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.titulosRodape h3::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    margin: 0.5rem auto 0;
+}
+
+#rodapePagina h6{
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+.bi::before{
+    margin-top: 1rem;
+    color: #fff;
+    margin-block-end: 1rem;
+}
+
 @media only screen and (max-width: 700px) {
     #imagemLogo {
         display: none;
@@ -138,5 +217,22 @@ body {
     #conteudo {
         display: flex;
         justify-content: center;
+        color: #fff;
+    }
+
+    #inserirDados {
+        width: 90%;
+        background-color: #040A3E;
+    }
+
+    .botaoPressiona{
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .botaoDois{
+        background-color: #FF9F76;
+        color: #FFFFFF;
+        margin-top: 0.5rem;
     }
 }
