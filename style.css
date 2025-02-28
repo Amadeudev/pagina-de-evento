@@ -222,4 +222,8 @@ body{
     .localEvento, .dataEvento {
         width: 100%;
     }
+
+    .organizadoresLogos{
+        width: 30%;
+    }
 }
