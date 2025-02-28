@@ -211,3 +211,15 @@ body{
     color: #fff;
     margin-block-end: 1rem;
 }
+
+@media only screen and (max-width: 700px) {
+    .localHoraEvento {
+        display: block;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    
+    .localEvento, .dataEvento {
+        width: 100%;
+    }
+}
