@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040A3E;
+    font-family: "Lato", sans-serif;
+}
+
+#cabecalho{
+    background-color: #fff;
+    color: white;
+    color:#000;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#dataLocalEvento {
+    margin-top: 1rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    list-style-type: none
+}
+
+.navBar:hover{
+    transform: scale(1.1);
+}
+
+.itensPagina {
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.itensPagina:hover {
+    color: #F2C53D;
+    transition: .3s;
+}
+
+.dados {
+    background-color: #FFFAF2;
+    border: solid 0.5px #CACACA;
+    border-radius: 7px;
+    width: 380px;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+
+/*INSCRIÇÃO*/
+#conteudo {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+#inscricaoUsuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#inserirDados {
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 35rem;
+    border-radius: 20px;
+}
+
+#avisoImportante{
+    margin-top: 1rem;
+}
+
+#aviso {
+    font-size: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+    color: #FF1E1E;
+}
+
+.botaoUm {
+    border: solid 0.5px #FF9F76;
+    color: #FF9F76;
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    padding: 7px;
+    font-size: 12px;
+    width: 170px;
+    max-width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.botaoUm:active{
+    background-color: #FF9F76;
+    color: #FFFFFF;
+}
+
+.botaoDois {
+    border: solid 0.5px #040A3E;
+    background-color: #040A3E;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding: 7px;
+    font-size: 12px;
+    width: 170px;
+    max-width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.botaoDois:active {
+    background-color: #FFFFFF;
+    color:#FF9F76;
+}
+
+@media only screen and (max-width: 700px) {
+    #imagemLogo {
+        display: none;
+    }
+
+    #conteudo {
+        display: flex;
+        justify-content: center;
+    }
+}

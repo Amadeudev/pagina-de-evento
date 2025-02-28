@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Acalourada 2025.1</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="principaisEvento">
+            <h1>ACALOURADA - 2025.1</h1>
+            <h3 id="dataLocalEvento">15, 16 e 17 de Abril de 2025 / Centro de Ciências Exatas - UFMA</h3>
+        </div>
+        <nav>
+            <ul class="navBar">
+                <li><a  class="itensPagina" href="https://petcompufma.org/index.php" target="_blank">Home</a></li>
+                <li><a  class="itensPagina" href="#carrossel">Programação</a></li>
+                <li><a  class="itensPagina" href="page\forms.html" target="_blank">Inscrições</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="carrossel">
+            <div class="carrosselItens">
+                <div class="programacaoItemSlide">
+                    <h2>Conheça nossa Programação</h2>
+                </div>
+                <div class="programacaoItemSlide">
+                        <h3>Dia 1: Palestras e Dinâmicas</h3>
+                        <p>09:00 - Apresentação do PETComp - Auditório I</p>
+                        <p>09:30 - Dinâmica de apresentação pessoal - Auditório I</p>
+                        <p>10:30 - Apresentação do curso - Auditório I</p>
+                        <p><br>12:00 - PAUSA</p><br>
+                        <p>14:00 - Palestra I - Nucléo de Computação Aplicada</p>
+                        <p>16:00 - Apresentação LABI - Nucléo de Computação Aplicada</p>
+                        <p><br>16:30 - FIM DO 1° DIA</p>
+                </div>
+                <div class="programacaoItemSlide">
+                        <h3>Dia 2: Palestras e Atividades</h3>
+                        <p>09:00 - Palestra II - Auditório I</p>
+                        <p>10:00 - Minicurso de programação em Blocos - Auditório I</p>
+                        <p><br>12:00 - PAUSA</p><br>
+                        <p>14:00 - Mesa redonda com egressos do curso - Auditório I</p>
+                        <p>16:00 - Palestra III</p>
+                        <p><br>17:30 - FIM DO 2° DIA</p>
+                </div>
+                <div class="programacaoItemSlide">
+                    <h3>Dia 3: Apresentações e Dinâmicas</h3>
+                    <p>08:30 - LabTour</p>
+                    <p><br>12:30 - PAUSA</p><br>
+                    <p>14:00 - Apresentação do Diretório Acadêmico de Ciência da Computação - Auditório I</p>
+                    <p>15:00 - Apresentação da Atlética Lorde</p>
+                    <p>15:30 - Dinâmica de jogos - Auditório I</p>
+                    <p><br>17:30 - FIM DO 3° DIA</p>
+                </div>
+            </div>
+            <button class="controleCarrossel anterior" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="controleCarrossel posterior" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+
+        <section id="infoEvento">
+            <div class="sobreEvento">
+                <h2 class="titulo">Sobre o Evento</h2>
+                <p>A Acalourada é uma atividade de recepção dos estudantes ingressantes no curso de Ciência da Computação
+                de forma presencial. Essa atividade já vem sendo desenvolvida há mais de 6 anos em conjunto com a Coordenação
+                de Computação, o Departamento de Informática, o PETComp e o Diretório Acadêmico de Ciência da Computação,
+                e procura guiar os calouros através da universidade e do curso, além de mostrar as oportunidades que a universidade
+                oferece tanto de forma pessoal como profissional.</p>
+                </p>
+            </div>
+
+            <div class="localHoraEvento">
+                <div class="localEvento">
+                    <h4 class="titulo">ONDE</h4>
+                    <p>A programação da Acalourada ocorre dentro do espaço do Centro de Ciências Exatas (CCET) da UFMA, nesse local,
+                    os calouros terão a oportunidade de conhecer os laboratórios, salas de aula e alguns professores do curso de Ciência
+                    da Computação. As atividades são divididas nos espaços internos do Centro.</p>
+                </div>
+
+                <div class="dataEvento">
+                    <h4 class="titulo">QUANDO?</h4>
+                    <p>15, 16 e 17 de abril, a partir das 9 horas.</p>
+                    <ul class="infosData">
+                        <li class="pontosImportantes">Palestras inspiradoras</li>
+                        <li class="pontosImportantes">Dinâmicas e rodas de conversa</li>
+                        <li class="pontosImportantes">Muito mais esperando por vocês!</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="titulosRodape">
+            <h1>ORGANIZAÇÃO</h1>
+            <div class="grupoComLogos">
+                <a href="https://portalpadrao.ufma.br/site" target="_blank"><img class="organizadoresLogos" src="assets/logo-ufma.png" alt="Logo da UFMA"></a>
+                <a href="http://www.deinf.ufma.br/" target="_blank"><img class="organizadoresLogos" src="assets/logo-deinf.png" alt="Logo do Departamento de Informática"></a>
+                <a href="https://petcompufma.org/index.php" target="_blank"><img class="organizadoresLogos" src="assets/logo-petcomp.png" alt="Logo do PETComp"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="rodapePagina">
+        <div class="titulosRodape">
+            <h3>CONTATOS</h3>
+        </div>
+        <h6>E-MAIL: petcomputacao.ufma@gmail.com</h6>
+        <a id="logoInsta" href="https://www.instagram.com/petcompufma/" target="_blank"><i class="bi bi-instagram"></i></a>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

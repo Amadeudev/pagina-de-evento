@@ -1,0 +1,212 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+#cabecalho{
+    background-color: #fff;
+    color: white;
+    color:#000;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#dataLocalEvento {
+    margin-top: 1rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    list-style-type: none
+}
+
+.navBar:hover{
+    transform: scale(1.1);
+}
+
+.itensPagina {
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.itensPagina:hover {
+    color: #F2C53D;
+    transition: .3s;
+}
+
+/*CARROSSEL*/
+#carrossel {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+.carrosselItens {
+    display: flex;
+    height: 100%;
+}
+
+.programacaoItemSlide {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('assets/imagem fundo.avif') no-repeat center center;
+    background-size: cover;
+}
+
+.programacaoItemSlide h2, .programacaoItemSlide h3, .programacaoItemSlide p {
+    margin: 10px;
+    text-align: center;
+}
+
+.programacaoItemSlide h2 {
+    font-size: 20px;
+    border: solid #fff 2px;
+    border-radius: 2.5rem;
+    padding: 10px;
+    background-color:dimgray;
+}
+
+.controleCarrossel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    border: none;
+    padding: 50px;
+    padding-top: 15rem;
+    padding-block-end: 15rem;
+    cursor: pointer;
+}
+
+.anterior {
+    left: 10px;
+}
+
+.posterior {
+    right: 10px;
+}
+
+
+/*SECTION INFORMAÇÕES EVENTO*/
+#infoEvento {
+    background-color: #040A3E;
+    display: block;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+
+#infoEvento h2{
+    margin-top: 1rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-block-end: 1rem;
+}
+
+.localHoraEvento {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.localEvento, .dataEvento {
+    width: 48%;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.sobreEvento p, .localEvento p, .dataEvento p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.infosData{
+    margin-top: 10px;
+}
+
+
+/* FOOTER */
+.titulosRodape {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.titulosRodape h1 {
+    margin-bottom: 0;
+}
+
+.titulosRodape h1::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #000;
+    margin: 1rem auto 0;
+}
+
+.organizadoresLogos{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.organizadoresLogos:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+
+/*CONTATOS*/
+#rodapePagina{
+    text-align: center;
+    background-color:#040A3E;
+    padding: 0.1rem;
+    color: #fff;
+}
+
+.titulosRodape h3 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.titulosRodape h3::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    margin: 0.5rem auto 0;
+}
+
+#rodapePagina h6{
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+.bi::before{
+    margin-top: 1rem;
+    color: #fff;
+    margin-block-end: 1rem;
+}
