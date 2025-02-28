@@ -62,12 +62,13 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    background: url('assets/imagem fundo.avif') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Cobre o espaço disponível */
+    background-position: center; /* Centraliza a imagem de fundo */
+    position: relative; /* Para posicionar a imagem corretamente */
 }
 
 .programacaoItemSlide h2, .programacaoItemSlide h3, .programacaoItemSlide p {
-    margin: 10px;
+    margin: 10px 0;
     text-align: center;
 }
 
